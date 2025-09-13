@@ -8,17 +8,17 @@ const Footer: React.FC = () => {
         <div className="flex items-center justify-center gap-2 mb-4">
           <Heart className="w-5 h-5 text-pink-500 fill-current animate-pulse" />
           <span className="text-lg font-semibold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Aşkımızın Hikayesi
+            KÜÇÜK PRENSİN HİKAYESİ
           </span>
           <Heart className="w-5 h-5 text-pink-500 fill-current animate-pulse" style={{ animationDelay: '0.5s' }} />
         </div>
         
         <p className="text-gray-400 text-sm mb-6 max-w-md mx-auto">
-          Bu site, sonsuz aşkımızın bir anıtı. Her pixel sevgiyle kodlandı.
+          Bu sayt, sonsuz sevgimizin meyvəsidir. Hər piksel sevgi ilə kodlanıb.
         </p>
         
         <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
-          <span>Aşkla ve özenle hazırlandı</span>
+          <span>Sevgi və ehtimamla hazırlanıb</span>
           <Heart className="w-4 h-4 text-pink-500 fill-current" />
           <span>© 2024</span>
         </div>

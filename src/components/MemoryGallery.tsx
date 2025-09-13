@@ -6,28 +6,28 @@ const MemoryGallery: React.FC = () => {
   
   const memories = [
     {
-      image: "https://images.pexels.com/photos/1024965/pexels-photo-1024965.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Kahkahalarla Dolu Akşamlar",
-      description: "Birlikte güldüğümüz her an, kalbimizde bir ışık yakıyor.",
-      mood: "Neşeli"
+      image: "/src/images/xatireler/sevgi.jpg",
+      title: "Sevgiylə Dolu Anlarımız",
+      description: "Birlikdə güldüyümüz hər an, ürəyimizdə bir işıq yandırır.",
+      mood: "Şən"
     },
     {
-      image: "https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Gün Batımında Aşk",
-      description: "Gün batımının renkleri, aşkımızın güzelliğini yansıtıyor.",
+      image: "/src/images/xatireler/qatar.jpg",
+      title: "Qatarla Səyahətimiz",
+      description: "Getdiyim yollar səninlə gözəlləşir gülüm mənimmm",
       mood: "Romantik"
     },
     {
-      image: "https://images.pexels.com/photos/1024969/pexels-photo-1024969.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Dans Eden Kalplerimiz",
-      description: "Müzik bittiğinde bile, kalplerimiz birlikte dans etmeye devam ediyor.",
-      mood: "Tutkulu"
+      image: "/src/images/xatireler/qış.jpg",
+      title: "Qışdakı Uşaqlığımız və Oyunlarımız ",
+      description: "Qar dınıciklərinə rənglərini sənmi verirsən?!",
+      mood: "Ehtiraslı"
     },
     {
-      image: "https://images.pexels.com/photos/1024966/pexels-photo-1024966.jpeg?auto=compress&cs=tinysrgb&w=800",
-      title: "Sessiz Mutluluk Anları",
-      description: "Bazen en güzel sözler, sessizlikte saklanır.",
-      mood: "Huzurlu"
+      image: "/src/images/xatireler/park.jpg",
+      title: "Parkdakı Huzurum",
+      description: "Bəzən ən gözəl sözlər, səssizlikdə gizlənir, huzur mənbəyimmm",
+      mood: "Rahat"
     }
   ];
 
@@ -43,7 +43,7 @@ const MemoryGallery: React.FC = () => {
     <section id="anilar" className="py-24 bg-gradient-to-b from-gray-900/50 to-purple-900/30 relative">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-          Unutulmaz Anılar
+          Unudulmaz Xatirələr
         </h2>
         
         <div className="relative">

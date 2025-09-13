@@ -21,13 +21,15 @@ const FinalMessage: React.FC = () => {
         
         <h2 className="text-4xl md:text-6xl font-black mb-8 leading-tight">
           <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-pink-600 bg-clip-text text-transparent">
-            Sonsuz Aşkımız
+            Sonsuz Sevgimiz
           </span>
         </h2>
         
         <p className="text-xl md:text-2xl text-gray-300 font-light leading-relaxed mb-12 max-w-3xl mx-auto">
-          Bu site, aşkımızın en güzel anılarını bir araya getiriyor. 
-          Her saniyesi için minnettarım. Sen benim hayatımın en güzel hedayesisin.
+          Bu sayt, sevgimizin ən gözəl xatirələrini bir yerə toplayır. 
+          Hər saniyəsi üçün minnətdaram. Sən mənim həyatımın ən gözəl hədiyyəsisən.Hər anına minlər şükür, gözəlim. Yaxşı ki mənim hanımımsan, yaxşı ki mənim qadınımsan. Səni mənə Nəsib edən Allaha milyonlar şükür olsun. Səni çox ama çoooooxxxxx sevirəmmm. Uşaqlığım gəncliyim və sonra da yaşlılığımı bərabər keçirdiyim, dəyərli etdiyim hanımım mənimmm, xəzinəmnnn. Sənsiz həyatım çox boşluqda olar və bu anları düşünmək belə istəmirəm. Hər şey üçün sənə çox təşəkkür edirəm. Sənin kimi bir xanım bu dünyada başqa yoxdur. Özümü çox şanslı hiss edirəm... Əlhəmdulillah...  yaxşı ki sən Nərminimmmm.. YAXŞI Kİ SƏNNNNN
+
+SƏNİ ÇOXX SEVƏNNN HİDİNN
         </p>
         
         <div className="relative inline-block">
@@ -39,7 +41,7 @@ const FinalMessage: React.FC = () => {
           >
             <span className="flex items-center gap-3">
               <Heart className={`w-6 h-6 fill-current ${clicked ? 'animate-bounce' : ''}`} />
-              <span className="relative z-10">Seni Çok Seviyorum</span>
+              <span className="relative z-10">Səni Çox Sevirəm</span>
               {clicked && <Heart className="w-6 h-6 fill-current animate-bounce" />}
             </span>
             
@@ -68,7 +70,7 @@ const FinalMessage: React.FC = () => {
         
         <div className="mt-16 p-8 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm rounded-2xl border border-pink-500/20">
           <p className="text-lg text-gray-300 italic">
-            "Aşk, iki kalbin tek ritimde çarpmasıdır. Bizim ritmimiz, sonsuzluk boyunca sürecek."
+            'Ve Allah, onların kalplerini birleştirmiştir  (ENFAL - 63)'
           </p>
         </div>
       </div>

@@ -15,9 +15,8 @@ const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { href: '#baslangic', label: 'Başlangıç' },
-    { href: '#anilar', label: 'Anılar' },
-    { href: '#gelecek', label: 'Gelecek Hayallerimiz' }
+    { href: '#baslangic', label: 'Başlanğıc' },
+    { href: '#anilar', label: 'Xatirələr' }
   ];
 
   return (
@@ -30,18 +29,23 @@ const Header: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-3 group">
-            <div className="relative">
-              <Heart 
-                className={`w-8 h-8 text-pink-500 fill-current transition-all duration-300 ${
-                  isScrolled ? 'animate-pulse' : 'group-hover:scale-110'
-                }`} 
-              />
-              <div className="absolute inset-0 w-8 h-8 bg-pink-500/20 rounded-full animate-ping opacity-75"></div>
+          <div className="flex flex-col items-start group">
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <Heart 
+                  className={`w-8 h-8 text-pink-500 fill-current transition-all duration-300 ${
+                    isScrolled ? 'animate-pulse' : 'group-hover:scale-110'
+                  }`} 
+                />
+                <div className="absolute inset-0 w-8 h-8 bg-pink-500/20 rounded-full animate-ping opacity-75"></div>
+              </div>
+              <h1 className="text-xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+                Sevgimizin Hekayəsi
+              </h1>
             </div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-              Aşkımızın Hikayesi
-            </h1>
+            <div className="text-sm font-medium text-pink-300 ml-11">
+              NƏRMIN VƏ HIDAYƏDDİN
+            </div>
           </div>
 
           {/* Desktop Navigation */}

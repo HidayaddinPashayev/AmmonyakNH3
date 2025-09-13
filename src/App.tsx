@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Heart, ChevronDown, Calendar, Camera, BellRing as Ring, Baby, Users } from 'lucide-react';
+import { Heart, ChevronDown, Calendar, Camera } from 'lucide-react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Timeline from './components/Timeline';
 import MemoryGallery from './components/MemoryGallery';
-import FutureSection from './components/FutureSection';
 import FinalMessage from './components/FinalMessage';
 import Footer from './components/Footer';
 
@@ -26,7 +25,6 @@ function App() {
         <Hero scrollY={scrollY} />
         <Timeline />
         <MemoryGallery />
-        <FutureSection />
         <FinalMessage />
       </main>
       <Footer />

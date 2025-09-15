@@ -6,25 +6,25 @@ const MemoryGallery: React.FC = () => {
   
   const memories = [
     {
-      image: "/src/images/xatireler/sevgi.jpg",
+      image: "/images/xatireler/sevgi.jpg",
       title: "Sevgiylə Dolu Anlarımız",
       description: "Birlikdə güldüyümüz hər an, ürəyimizdə bir işıq yandırır.",
       mood: "Şən"
     },
     {
-      image: "/src/images/xatireler/qatar.jpg",
+      image: "/images/xatireler/qatar.jpg",
       title: "Qatarla Səyahətimiz",
       description: "Getdiyim yollar səninlə gözəlləşir gülüm mənimmm",
       mood: "Romantik"
     },
     {
-      image: "/src/images/xatireler/qış.jpg",
+      image: "/images/xatireler/qış.jpg",
       title: "Qışdakı Uşaqlığımız və Oyunlarımız ",
       description: "Qar dınıciklərinə rənglərini sənmi verirsən?!",
       mood: "Ehtiraslı"
     },
     {
-      image: "/src/images/xatireler/park.jpg",
+      image: "/images/xatireler/park.jpg",
       title: "Parkdakı Huzurum",
       description: "Bəzən ən gözəl sözlər, səssizlikdə gizlənir, huzur mənbəyimmm",
       mood: "Rahat"

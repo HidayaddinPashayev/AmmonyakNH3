@@ -7,49 +7,49 @@ const Timeline: React.FC = () => {
       icon: <Calendar className="w-6 h-6" />,
       title: "İlk Tanışlıq",
       description: "2021 Sentyabrında düşünməzdim ki Azəri kursu mənim həyatımda böyük bir dəyişiklik yaratsın....",
-      image: "/src/images/baslangic/ilkTanisliq.jpg",
+      image: "/images/baslangic/ilkTanisliq.jpg",
       date: "İlk Gün"
     },
     {
       icon: <Camera className="w-6 h-6" />,
       title: "İlk Görüş",
       description: "Münasibətimizin cücərdiyi anlar kursda və qeyri adi keçdiyi üçün ilk görüş demək çətindir. Ancaq yadımda idi adını qoyduğumuzda keçirdiyim sevinc hissləri",
-      image: "/src/images/baslangic/İlkGorus.jpg",
+      image: "/images/baslangic/İlkGorus.jpg",
       date: "Başlanğıc"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Bərabər keçən dərslər",
       description: "Təxminən 10 aylıq abituriyentlikdövrü səninlə bir göz qırpımında keçdi..",
-      image: "/src/images/baslangic/BeraberDersler.jpg",
+      image: "/images/baslangic/BeraberDersler.jpg",
       date: "Kəşf"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Bərabər keçən dərslər 2",
       description: "Təxminən 10 aylıq abituriyentlikdövrü səninlə bir göz qırpımında keçdi..",
-      image: "/src/images/baslangic/BeraberDersler2.jpg",
+      image: "/images/baslangic/BeraberDersler2.jpg",
       date: "Kəşf"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Bərabər keçən dərslər 3",
       description: "Təxminən 10 aylıq abituriyentlikdövrü səninlə bir göz qırpımında keçdi..",
-      image: "/src/images/baslangic/BeraberDersler3.jpg",
+      image: "/images/baslangic/BeraberDersler3.jpg",
       date: "Kəşf"
     },
     {
       icon: <Calendar className="w-6 h-6" />,
       title: "Ilk date",
       description: "Ilk Datemiz və daha sonra London Cafe nin bizim üçün xüsusi yerə çevrilmısi",
-      image: "/src/images/baslangic/İlkDate.jpg",
+      image: "/images/baslangic/İlkDate.jpg",
       date: "Dərslər"
     },
     {
       icon: <Camera className="w-6 h-6" />,
       title: "Uni Vaxtları",
       description: "Tələbəliyimi tələbəlik edən sən oldun, Hanımımm",
-      image: "/src/images/baslangic/UniVaxtlari.jpg",
+      image: "/images/baslangic/UniVaxtlari.jpg",
       date: "İlk Date"
     },
     
@@ -57,14 +57,14 @@ const Timeline: React.FC = () => {
       icon: <Camera className="w-6 h-6" />,
       title: "İlk ildönümümüz",
       description: "Bu gün mınim üçün çox hıyıcanlı idi. ilk dəfə buket hədiyyəsi ilk dəfə rezerv masa və dahası.. Həmin gün bərabərliyimizdən kənarda mənim olgunlugumun inkişafında böyük rol oynamışdı...",
-      image: "/src/images/baslangic/İlDonumu.jpg",
+      image: "/images/baslangic/İlDonumu.jpg",
       date: "İlk Date"
     },
     {
       icon: <Camera className="w-6 h-6" />,
       title: "İndilərdə biz",
       description: "Həyatın hər anı səninlə gözəldi gülüm mənimmm",
-      image: "/src/images/baslangic/İndilierdeBiz.jpg",
+      image: "/images/baslangic/İndilierdeBiz.jpg",
       date: "İlk Date"
     }
   ];
